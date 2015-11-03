@@ -1,0 +1,11 @@
+<ion-view view-title="Quiz List">
+  <ion-content class="padding">
+      <ion-list can-swipe="listCanSwipe">
+        <ion-item class="item-thumbnail-left"  ng-repeat="quiz in quizzes">
+          <img src="img/logo.png" />
+          <h2>{{quiz.title}}</h2>
+          <p>{{quiz.description}}</p>
+        </ion-item>
+      </ion-list>
+  </ion-content>
+</ion-view>
