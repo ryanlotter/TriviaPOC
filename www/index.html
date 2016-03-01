@@ -5,7 +5,8 @@
   <link rel="stylesheet" href="lib/ionic/css/ionic.min.css" />
   <script src="js/index.js"></script>
   <script src="lib/ionic/js/ionic.bundle.min.js"></script>
-    <script src="js/pagemodule.js"></script>
+  <script src="js/pagemodule.js"></script>
+  <script src="cordova.js"></script>
 </head>
 
 <body ng-app="ionicApp" ng-controller='ModalAbout'>
@@ -35,6 +36,7 @@
             <a class="button icon icon-right ion-chevron-right" href="#/tab/quizlist">Quiz List</a>              
             <button class="button button-positive" ng-click="openModal()">About</button>
         </div>
+      <button onclick='showCurrentLocation();'>Where Am I?</button>
 
         </ion-content>
     </ion-view>

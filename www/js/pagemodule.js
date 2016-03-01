@@ -1,4 +1,6 @@
-    var app = angular.module('ionicApp', ['ionic'])
+'use strict';
+
+var app = angular.module('ionicApp', ['ionic'])
 
     app.config(function($stateProvider, $urlRouterProvider) {
       
